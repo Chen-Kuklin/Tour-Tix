@@ -1,0 +1,127 @@
+h2{
+  font-family:'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+  font-size: 40px;   
+}
+.reka{
+  background-image: url("https://www.klicco.info/wp-content/uploads/2018/03/Depositphotos_54856269_m-2015.jpg");
+  background-color: #cccccc;
+  height: 930px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.sortButtons{
+  border:solid 1px #b4b3b8; 
+  background: #30a59b;
+}
+#tripDetailes{
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  
+  text-align: center;
+  
+  font-size: 25px;
+ border:solid 3px #b8b3b3;
+  text-align: center;
+  color:#FFF;
+  background: #30a59b;
+  
+  border: 1px solid black;
+  max-width: 100%;
+  /*right: 5px;*/
+  max-height: 100%;
+  padding-right: 10px
+}
+
+#viewHtml{
+  color:#FFF;
+  background: #c40d53;
+ width:950px;
+ 
+ text-align: center;
+ margin-right: 20px;
+  text-align: center;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 25px;
+ border:solid 3px #b8b3b3;
+ max-height: 60%;
+}
+.addSiteTrip
+{/**/
+   width: 259px;
+   height: 40px;
+   margin-left: 1px;
+   margin-top: 15px;
+   padding-top: 5px;
+   display: inline-block;
+   /*design*/
+   border-radius: 50px 50px 50px 50px;
+   background-color: #6b5425;
+   box-shadow: 1px 1px 19px 5px rgba(231,166,26,1);
+   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+   font-size: 19px;
+   text-align: center;
+   cursor: pointer;
+}
+
+#editForm{
+  width: 500px;
+ /* margin: 132px auto 35px auto;*/
+ border: 5px solid #333;
+ 
+}
+#addSite{
+  width: 500px;
+  /* margin: 132px auto 35px auto;*/
+  border: 5px solid #333;
+ }
+ #addCopon{
+  width: 500px;
+  /* margin: 132px auto 35px auto;*/
+  border: 5px solid #333;
+ }
+
+.deleteButtons{
+  width: 60px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  /*design, including text*/
+  border-radius: 50px 50px  50px 50px;
+  background-color: #ff7e44;
+  box-shadow: 1px 1px 5px 1px;
+  text-align: center;
+  font-size: 10px;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 20px #CCCCCC;
+  }
+.editTripButtons{
+width: 100px;
+height: 35px;
+margin-bottom: 10px;
+margin-right: auto;
+margin-left: auto;
+/*design, including text*/
+border-radius: 50px 50px  50px 50px;
+background-color: #ff7e44;
+box-shadow: 1px 1px 5px 1px;
+text-align: center;
+font-size: 10px;
+font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+font-weight: bold;
+text-shadow: 3px 3px 20px #CCCCCC;
+}
+th, td{
+  border-color: gray;
+  border-width: 2px;
+  border-style: solid;
+}
+p{
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 20px #111010;
+  font-weight: bold;
+   font-size:10.5mm
+}

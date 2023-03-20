@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>index</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <!-- load bootstrap via CDN -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+    "></script> <!-- load jquery via CDN -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <script src="/js/view.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- load our javascript file -->
+
+</head>
+
+<body>
+  <div class="reka">
+    <div id="div1">
+      <h2>list of trips</h2>
+    </div>
+    <button id="addTrip1" class="addSiteTrip">add trip </button>
+    <button id="addSite1" class="addSiteTrip">create site </button><br>
+    <div id=tripDetailes>
+    </div>
+    <div id=editForm>
+      <P>EDIT THE TRIP</P>
+      <form id="editTrip" name="editTrip" method="PUT">
+        <div id="name-group" class="form-group">
+          <label for="id" id="formId"></label>
+        </div>
+        <div id="name-group" class="form-group">
+          <label for="id">start date of trip</label>
+          <input type="date" class="form-control" name="start_date_field" id="start_date_field" required>
+        </div>
+        <div id="name-group" class="form-group">
+          <label for="id"> duration</label>
+          <input type="text" class="form-control" name="duration_field" id="duration_field" required min="1">
+        </div>
+        <div id="name-group" class="form-group">
+          <label for="id"> price in Ils</label>
+          <input type="number" class="form-control" name="price" id="price" required min="0">
+          <!-- errors will go here -->
+        </div>
+
+
+        <button type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+      </form>
+    </div>
+    <div id=addSites>
+      <P>ADD SITE</P>
+      <form id="addSite" name="addSite" method="POST">
+        <div id="name-group" class="form-group"></div>
+        <label for="id" id="SId"></label>
+        <div id="name-group" class="form-group">
+          <label for="id">choose site</label>
+          <select id="select1" name="select1">
+              
+          </select>
+        </div>
+        
+
+        <div id="name-group" class="form-group">
+          <label for="id">enter index</label>
+          <input type="number" class="form-control" name="index" id="index" required min="0">
+        </div>
+        
+
+
+        <button type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+      </form>
+    </div>
+    <div id=addCoponid>
+      <form id="addCopon" name="addCopon" method="POST">
+        <div id="name-group" class="form-group"></div>
+        <label for="id" id="CId"></label>
+
+        <div id="name-group" class="form-group">
+          <label for="id">code cupon</label>
+          <input type="text" class="form-control" name="cupon_field" id="cupon_field" required>
+        </div>
+        <div id="name-group" class="form-group">
+          <label for="id">percent</label>
+          <input type="text" class="form-control" name="percent_field" id="percent_field" min="1" max="100" required>
+          <!-- errors will go here -->
+        </div>
+        <div id="name-group" class="form-group">
+          <label for="id"> start date:</label>
+          <input type="date" class="form-control" name="start_date" id="start_date" required>
+          <!-- errors will go here -->
+        </div>
+        <div id="name-group" class="form-group">
+          <label for="id">expire date:</label>
+          <input type="date" class="form-control" name="expire_date" id="expire_date" required>
+          <!-- errors will go here -->
+        </div>
+
+
+        <button type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+      </form>
+    </div>
+    <div id=viewHtml><br></div>
+    <button id="addTrip2" class="addSiteTrip">add trip </button>
+    <button id="addSite2" class="addSiteTrip">create site </button><br>
+  </div>
+  
+</body>
+
+
+
+
+
+
+
+</html>
