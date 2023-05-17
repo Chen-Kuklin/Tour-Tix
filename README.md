@@ -5,4 +5,4 @@ This project implements a management system for a travel company that allows sto
 The system uses a MongoDB database to store the data in the cloud. The company offers trips on various routes, which can be purchased using different discount coupons.,
 This system provides a comprehensive solution to manage the entire process from trip planning to booking and payment.
 
-![Project logo](images1.jpg "My Project")
+![Project logo](image2.png "My Project")
