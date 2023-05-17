@@ -6,5 +6,5 @@ The system uses a MongoDB database to store the data in the cloud. The company o
 This system provides a comprehensive solution to manage the entire process from trip planning to booking and payment.
 
 <p align="center">
-    <img "src="image2.png" alt="Material Bread logo">
+    <"src="image2.png" alt="Material Bread logo">
 </p>
