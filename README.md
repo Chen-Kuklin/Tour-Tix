@@ -5,5 +5,5 @@ This project implements a management system for a travel company that allows sto
 The system uses a MongoDB database to store the data in the cloud. The company offers trips on various routes, which can be purchased using different discount coupons.,
 This system provides a comprehensive solution to manage the entire process from trip planning to booking and payment.
 <p align="center">
-    <img width="450px" height="250px"src="Image.jpeg" alt="Material Bread logo">
+    <img width="250px" height="450px"src="Image.jpeg" alt="Material Bread logo">
 </p>
